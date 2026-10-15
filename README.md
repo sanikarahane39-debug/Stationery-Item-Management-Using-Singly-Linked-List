@@ -1,109 +1,46 @@
-Stationery Item Management System Using Singly Linked List
+Stationery Item Management Using Singly Linked List
 
-Algorithm: 
+1. Problem Statement
 
-Step 1: Start.
+To develop a C++ program to manage stationery items using a Singly Linked List.
 
-Step 2: Initialize "head = NULL".
+2. Objectives
 
-Step 3: Display the menu:
+-To insert and delete stationery items.
 
-1. Insert Item
-2. Delete Item
-3. Search Item
-4. Display Items
-5. Exit
+-To search and display item details.
 
-Step 4: Accept the user's choice.
+-To calculate the total bill.
 
-Step 5: Perform the selected operation:
+-To update quantities and count items.
 
-- Insert: Create a new node, enter the item name and quantity, and insert it at the end of the linked list.
-- Delete: Enter the item name, search for it, and delete the node if found.
-- Search: Enter the item name and display its quantity if found.
-- Display: If the list is empty, display a message. Otherwise, traverse the linked list from "head" to "NULL" and display all items with their quantities.
-- Exit: Display the termination message and terminate the program.
+-To display a low-stock alert.
 
-Step 6: If the choice is invalid, display an error message.
+3. Introduction
 
-Step 7: Repeat Steps 3–6 until the user selects Exit.
+A Singly Linked List is a linear data structure in which each node contains data and a pointer to the next node. This project uses a linked list to manage stationery item names, quantities, and prices.
 
-Step 8: Stop.
+4. Algorithm
 
+1)Start the program.
 
-Features
+2)Initialize head = NULL.
 
-- Add a new stationery item
-- Delete a stationery item
-- Search for a stationery item
-- Display all stationery items
-- Store item names and quantities
-- Menu-driven program
+3)Display the menu.
 
-Data Structure Used
+4)Accept the user's choice.
 
-Singly Linked List
+5)Perform the selected operation.
 
-Each node contains:
+6)Repeat until the user selects Exit.
 
-- Stationery item name
-- Item quantity
-- Pointer to the next node
+7)Stop the program.
 
-The Singly Linked List connects each stationery item to the next node. The last node points to "NULL".
+6. Result
 
-Example:
+The Stationery Item Management System was successfully implemented using a Singly Linked List in C++.
 
-"Pen → Pencil → Notebook → Eraser → NULL"
+7. Conclusion
 
-Technologies Used
+This project helped us understand linked list operations and their practical use in managing stationery items.
 
-- C++
-- Singly Linked List
-- Pointers
-- Dynamic Memory Allocation
-- Console-Based Programming
-
-
-Operations
-
-1. Insert Item
-
-Adds a new stationery item and its quantity to the list.
-
-2. Delete Item
-
-Removes the specified stationery item from the list.
-
-3. Search Item
-
-Searches for a stationery item and displays its quantity if found.
-
-4. Display Items
-
-Displays all stationery items and their quantities.
-
-5. Exit
-
-Terminates the application.
-
-Learning Outcomes
-
-- Understanding Singly Linked List implementation
-- Understanding pointers and nodes
-- Learning dynamic memory allocation
-- Performing insertion, deletion, searching, and traversal
-- Developing menu-driven applications in C++
-- Understanding linked-list operations in data structures
-
-Sample Menu
-
-1. Insert Item
-2. Delete Item
-3. Search Item
-4. Display Items
-5. Exit
-
-Conclusion
-
-The Stationery Item Management System demonstrates how a Singly Linked List can be used to manage stationery records efficiently. This project helps in understanding fundamental data structure concepts and their practical implementation using C++.
